@@ -1,0 +1,23 @@
+#login_div{
+    margin-top: 20px;
+    text-align: center;
+}
+#login_div p{
+    font-size: 50px;
+    font-weight: bold;
+}
+.info_div{
+    /* margin: 0 auto; */
+    /* display: block; */
+    /* position:absolute;
+    top:350%; left:50%;
+    transform: translate(-50%, -50%); */
+    text-align: center;
+}
+.info_div button{
+    /* transform: translate(0, -50%); */
+    text-align: center;
+    margin-left: 5px;
+    padding: 2px;
+    font-weight: bold;
+}

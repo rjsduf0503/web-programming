@@ -1,0 +1,22 @@
+#signup_div{
+    margin-top: 20px;
+    /* padding-bottom: 150px; */
+    text-align: center;
+}
+#signup_div p{
+    font-size: 50px;
+    font-weight: bold;
+}
+.info_div{
+    /* margin: 0 auto; */
+    /* position:absolute; */
+    /* top:50%; left:50%; */
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+}
+.info_div button{
+    text-align: center;
+    margin-left: 5px;
+    padding: 2px;
+    font-weight: bold;
+}

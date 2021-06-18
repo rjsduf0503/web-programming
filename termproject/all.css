@@ -1,0 +1,166 @@
+* {
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    margin: 0;
+    min-height: 870px;
+    height: auto;
+}
+
+header {
+    /* position: absolute; */
+    height: 100px;
+    width: 100%;
+    top: 0;
+	left: 0;
+	right: 0;
+    background-color: #0b1f57;
+    color: #FFFFFF;
+}
+.head #menu{
+    height: 50px;
+    background-color: #0b1f57be;
+}
+.head{
+    z-index: 20;
+}
+#home_logo a{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#home_logo{
+    padding-top: 15px;
+    display: inline-block;
+    float: left;
+}
+.section_div{
+    z-index: 10;
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    /* padding-bottom: 70px; */
+    /* height: 50px; */
+    /* min-height: 50%; */
+    /* min-height: -webkit-calc(100% - 220px);
+    min-height: -moz-calc(100% - 220px);
+    min-height: calc(100% - 220px); */
+}
+footer {
+    
+    z-index: 20;
+    position: fixed;
+    height: 70px;
+    bottom: 0;
+	left: 0;
+	right: 0;
+    width: 100%;
+    background-color: #d8d8d8;
+}
+.footer_main{
+    color: rgb(123, 125, 126);
+    padding-top: 10px;
+}
+.footer_main p{
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: rgb(199, 197, 192)
+}
+.wrap{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px;
+}
+
+.center{
+    text-align: center;
+}
+.login_logout{
+    display: block;
+}
+.login_logout ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.login_logout li{
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 10px 0 0 0;
+    border : 0;
+    float: right;
+}
+#menu a{
+    display: inline-block;
+    margin: 5px 15px 0 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.show{
+    display: inline-block;
+}
+.hide{
+    display: none;
+}
+
+
+.parent_div{
+    /* margin-bottom: auto; */
+    /* margin-top: 20px; */
+    /* height: 0 auto; */
+    /* margin-bottom: 20px; */
+    /* display: flex; */
+    /* overflow: auto; */
+}
+
+
+
+
+
+@media only screen and (max-width: 501px){
+    .head #menu{
+        height: auto;
+    }
+    #menu .wrap div{
+        display: inline-block;
+        margin: 0 15px 15px 0;
+        width: auto;
+        /* float: inline-end; */
+        /* display: inline-flex; */
+    }
+    /* section{
+        min-height: -webkit-calc(100% - 250px);
+        min-height: -moz-calc(100% - 250px);
+        min-height: calc(100% - 250px);
+    } */
+}
+@media only screen and (max-width: 415px){
+    .login_logout{
+        padding-top: 15px;
+        display: inline-block;
+        /* float: left; */
+        bottom: 0;
+        left: 0;
+    }
+}
+@media only screen and (max-width: 191px){
+    .login_logout li{
+        margin: 0 5px 0 0;
+        padding: 0 0 0 0;
+        display: inline;
+    }
+}
+
+
+/* 추후에 공통된 css는 이 파일에 냅두고
+각 파일에 필요한 css는 새로 만들어 그 css 파일에 적용할 예정 */

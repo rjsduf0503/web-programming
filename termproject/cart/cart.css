@@ -1,0 +1,79 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.cart_section .wrap{
+    width: 100%;
+    position: relative;
+}
+.cart_section .wrap .table_div{
+    padding-bottom: 300px;
+}
+#pay_div{
+    /* text-align: center; */
+    position: fixed;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 100%;
+    z-index: 20;
+    background-color: cadetblue;
+}
+caption{
+    font-size: 30px;
+    font-weight: bold;
+}
+th{
+    font-size: 20px;
+}
+#pay_div .text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#cart_modal{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    width: 500px; height: 300px;
+    display : none;
+    /* border-style: outset; */
+    background-color: rgb(170, 194, 240);
+    z-index: 100;
+}
+#pay_modal{
+    position: absolute;
+    top: 80%; left: 85%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    width: 200px; height: 100px;
+    display : none;
+    /* border-style: outset; */
+    background-color: rgb(126, 138, 160);
+    z-index: 100;
+}
+#cart_modal .btn_div{
+    position: absolute;
+    bottom: 0; right: 0;
+    /* margin-top: 38%; */
+    float: right;
+}
+#pay_modal .btn_div{
+    position: absolute;
+    bottom: 0;
+    margin-left: 60px;
+    /* text-align: center; */
+    /* float: right; */
+}
+.modal_head p{
+    margin-top: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.modal_contents{
+    text-align: center;
+}
